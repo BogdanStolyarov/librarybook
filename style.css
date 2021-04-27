@@ -88,3 +88,46 @@ body {
 	font-weight: 400;
 	margin-bottom: 16px;
 }
+
+.order {
+	display: flex;
+	align-items: center;
+	margin-bottom: 48px;
+}
+
+.price {
+	margin-right: 64px;
+	font-size: 55px;
+	font-weight: 400;
+}
+
+.favorite {
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration: none;
+	color: inherit;
+
+}
+
+.reader {
+	font-size: 16px;
+	font-weight: 700;
+	padding: 22px 50px;
+	border-radius: 5px;
+	border: 2px solid transparent;
+	margin-right: 18px;
+}
+
+.reader-primary {
+	background-color: #f89c02;
+	color: #ffff;
+}
+
+.book {
+	padding: 22px 50px;
+}
+.book-outline {
+	text-decoration: none;
+	border: 2px solid  #f89c02;
+	color: #f89c02;
+}
