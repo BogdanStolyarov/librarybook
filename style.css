@@ -66,6 +66,7 @@ body {
 }
 
 .logo {
+	font-family: 'MuseoCyrl-700';
 	text-transform: uppercase;
 	font-weight: 700;
 }
