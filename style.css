@@ -2,12 +2,9 @@
 	box-sizing: border-box;
 }
 
-body {
-
-	
 @font-face {
   font-family: 'MuseoCyrl-300';
-  src("../fonts/MuseoCyrl-300.ttf") format('truetype'),
+  src: ("../fonts/MuseoCyrl-300.ttf") format('truetype'),
        url('MuseoCyrl-300.woff') format('woff'),
        url('MuseoCyrl-300.woff2') format('woff2');
   font-weight: normal;
@@ -15,7 +12,7 @@ body {
 }
 @font-face {
   font-family: 'MuseoCyrl-700';
-  src("../fonts/MuseoCyrl-700.ttf") format('truetype'),
+  src:url("../fonts/MuseoCyrl-700.ttf") format('truetype'),
        url('MuseoCyrl-700.woff') format('woff'),
        url('MuseoCyrl-700.woff2') format('woff2');
   font-weight: normal;
@@ -24,12 +21,17 @@ body {
 
 @font-face {
   font-family: 'MuseoCyrl-900';
-  src("../fonts/MuseoCyrl-900.ttf") format('truetype'),
+  src:("../fonts/MuseoCyrl-900.ttf") format('truetype'),
        url('MuseoCyrl-900.woff') format('woff'),
        url('MuseoCyrl-900.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
+
+
+
+body {
+
 
 
 
@@ -94,11 +96,13 @@ body {
 }
 
 .title {
+	font-family: 'MuseoCyrl-900';
 	margin: 0;
 	display: block;
 	font-size: 48px;
-	font-weight: 700;
+	font-weight: 900;
 	margin-bottom: 15px;
+	
 }
 
 .subtitle {
