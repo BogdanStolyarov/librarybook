@@ -3,39 +3,31 @@
 }
 
 @font-face {
-  font-family: 'MuseoCyrl-300';
-  src: url('/fonts/MuseoCyrl-300.ttf'),
-       url('/fonts/MuseoCyrl-300.woff') format('woff'),
-       url('/fonts/MuseoCyrl-300.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+	font-family: "MuseoCyrl-300";
+	src: url("/fonts/MuseoCyrl-300.ttf"), url("/fonts/MuseoCyrl-300.woff") format("woff"),
+		url("/fonts/MuseoCyrl-300.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'MuseoCyrl-700';
-  src: url('/fonts/MuseoCyrl-700.ttf'),
-       url('/fonts/MuseoCyrl-700.woff') format('woff'),
-       url('/fonts/MuseoCyrl-700.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+	font-family: "MuseoCyrl-700";
+	src: url("/fonts/MuseoCyrl-700.ttf"), url("/fonts/MuseoCyrl-700.woff") format("woff"),
+		url("/fonts/MuseoCyrl-700.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
-  font-family: 'MuseoCyrl-900';
-  src: url('/fonts/MuseoCyrl-900.ttf'),
-       url('/fonts/MuseoCyrl-900.woff') format('woff'),
-       url('/fonts/MuseoCyrl-900.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
+	font-family: "MuseoCyrl-900";
+	src: url("/fonts/MuseoCyrl-900.ttf"), url("/fonts/MuseoCyrl-900.woff") format("woff"),
+		url("/fonts/MuseoCyrl-900.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
-
-
 
 body {
- font-family: "Roboto", sans-serif;
+	/* font-family: "Roboto", sans-serif; */
 	color: #202020;
 	font-size: 14px;
 }
@@ -44,6 +36,14 @@ body {
 	height: 646px;
 	width: 461px;
 	margin-right: 122px;
+}
+
+.about-avatar {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-right: 23px;
 }
 
 .header {
@@ -66,7 +66,7 @@ body {
 }
 
 .logo {
-	font-family: 'MuseoCyrl-700';
+	font-family: "MuseoCyrl-700";
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -96,18 +96,17 @@ body {
 }
 
 .title {
-	font-family: 'MuseoCyrl-900';
+	font-family: "MuseoCyrl-900";
 	margin: 0;
 	display: block;
 	font-size: 48px;
 	font-weight: 900;
 	margin-bottom: 15px;
-	
 }
 
 .subtitle {
 	display: block;
-	font-size: 24px ;
+	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 48px;
 }
@@ -141,7 +140,6 @@ body {
 	font-weight: 400;
 	text-decoration: none;
 	color: inherit;
-
 }
 
 .reader {
@@ -163,6 +161,64 @@ body {
 }
 .book-outline {
 	text-decoration: none;
-	border: 2px solid  #f89c02;
+	border: 2px solid #f89c02;
 	color: #f89c02;
+}
+
+.about {
+	background-color: #f1f1f1;
+	padding: 99px 0;
+}
+
+.about-container {
+	display: flex;
+	align-items: flex-start;
+	max-width: 1140px;
+	margin: auto;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.about-book {
+	max-width: 454px;
+	flex-shrink: 0;
+}
+
+.about-text {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.about-author {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width: 552px;
+	box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+	border-radius: 10px;
+	border: 1px solid #f3f3f3;
+	background-color: #fff;
+	padding: 68px 53px;
+}
+
+.about-name {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0;
+	margin-bottom: 24px;
+}
+
+.about-link {
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 400;
+	color: inherit;
+}
+
+.about-info {
+	margin-bottom: 24px;
+	flex-basis: 100%;
+	text-align: justify;
 }
