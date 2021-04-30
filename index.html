@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 	<title>Гарри Поттер и филосовский камень - Библиотека</title>
 </head>
 
@@ -12,15 +13,13 @@
 	<header class="header">
 		<div class="header-container container">
 			<div class="logo"><a href="#" class="logo-link">Библиотека</a></div>
-			<nav>
-				<ul class="nav-item">
-					<li class="nav-list">Бестеллеры</li>
-					<li class="nav-list">Подборки</li>
-					<li class="nav-list">Авторы</li>
-					<li class="nav-list">Дайджест</li>
-					<li class="nav-list">Подписка</li>
-					<li class="nav-list">Выбор редакции</li>
-				</ul>
+			<nav class="nav-item">
+					<a href="#" class="nav-list">Бестеллеры</a>
+					<a href="#" class="nav-list">Подборки</a>
+					<a href="#" class="nav-list">Авторы</a>
+					<a href="#" class="nav-list">Дайджест</a>
+					<a href="#" class="nav-list">Подписка</a>
+					<a href="#" class="nav-list">Выбор редакции</a>
 			</nav>
 			<div class="registration user-menu">
 				<a href="" class="registration-link">Личный кабинет</a>
@@ -31,21 +30,18 @@
 	<section class="main">
 		<div class="main-container container">
 			<div class="image-container">
-				<img src="#" alt="Обложка книги">
-				<div class="sail">Скидка 30%</div>
+				<img class="image-book" src="/img/121626-dzhoan-ketlin-rouling-garri-potter-i-filosofskiy-kamen.jpg" alt="Обложка книги">
+				<span class="sale">Скидка 30%</span>
 			</div>
 			<div class="information">
-				<div class="name-book">
 					<h2 class="subtitle">Джоан Роулинг</h2>
 					<h1 class="title">Гарри Поттер и филосовский камень</h1>
 					<h3 class="slogan">«Путешествие в твою мечту»</h3>
-				</div>
-
 				<div class="charasteristics">
-					<div class="made">Год выпуска: <span class="made-back">1999</span> </div>
-					<div class="phormat">Формат издания: <span class="phormat-back">131x180</span></div>
-					<div class="type-book">Тип обложки: <span class="type-book-back">мягкая</span></div>
-					<div class="warning-age">Ограничения по возрасту: <span class="warning-age-back">6+</span></div>
+					<div class="made info-text">Год выпуска: <span class="made-back">1999</span> </div>
+					<div class="phormat info-text">Формат издания: <span class="phormat-back">131x180</span></div>
+					<div class="type-book info-text">Тип обложки: <span class="type-book-back">мягкая</span></div>
+					<div class="warning-age info-text">Ограничения по возрасту: <span class="warning-age-back">6+</span></div>
 				</div>
 
 				<div class="price-favorite">
@@ -54,8 +50,8 @@
 				</div>
 
 				<div class="buttons">
-					<button class="reader"> Читать книгу</button>
-					<button class="order">Купить книгу</button>
+					<button class="reader button"> Читать книгу</button>
+					<button class="order ">Купить книгу</button>
 				</div>
 			</div>
 		</div>
@@ -77,11 +73,20 @@
 			</div>
 
 			<div class="about-author-text">
-				<img src="#" alt="Фото автора " class="author-avatar">
-				<div class="about-author-name">Дж. К. Роулинг </div>
-				<div class="about-author-contact">
+				<img src="/img/20160801_post_joan_3.jpg" alt="Фото автора " class="author-avatar">
+				<div class="about-bio">
+					<h2 class="about-name">Дж. К. Роулинг </h2>
 					<a href="https://www.jkrowling.com/" class="about-author-contact-link">https://www.jkrowling.com/</a>
 				</div>
+				<p class="about-info">
+					Известна также под псевдонимами Роберт Гэлбрейт, Ньют Скамандер, Кеннилуорти Уисп.
+					<br><br>
+					Британская писательница, автор серии романов о Гарри Поттере. Книги о Поттере получили несколько наград и
+					были проданы
+					в количестве более 400 миллионов экземпляров. Они стали самой продаваемой серией книг в истории и основой
+					для серии
+					фильмов, ставшей самой кассовой серией фильмов в истории.
+				</p>
 			</div>
 		</div>
 	</section>
@@ -99,17 +104,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="information-site">
-				<h3 class="information-title">Информация</h3>
-				<ul class="information-item">
-					<li class="information-list">Политика конфидициальности
-					</li>
-					<li class="information-list">Правила обработки данных
-					</li>
-					<li class="information-list">Договор-оферта
-					</li>
-				</ul>
-			</div>
+
 <div class="contacts-site">
 	<h3 class="contacts-site-title">Контакты</h3>
 	<ul class="contacts-item">
@@ -121,6 +116,20 @@
 		</li>
 	</ul>
 </div>
+
+
+			<div class="information-site">
+				<h3 class="information-title">Информация</h3>
+				<ul class="information-item">
+					<li class="information-list">Политика конфидициальности
+					</li>
+					<li class="information-list">Правила обработки данных
+					</li>
+					<li class="information-list">Договор-оферта
+					</li>
+				</ul>
+			</div>
+
 
 		</div>
 
