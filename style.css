@@ -208,7 +208,7 @@ header {
 }
 
 .about-author-name {
-		font-size: 16px;
+	font-size: 16px;
 	font-weight: 700;
 	margin: 0;
 	margin-bottom: 24px;
@@ -223,7 +223,7 @@ header {
 }
 
 .footer {
-		background-color: #fff;
+	background-color: #fff;
 	padding-top: 69px;
 	padding-bottom: 93px;
 }
@@ -236,14 +236,19 @@ header {
 	flex-wrap: wrap;
 }
 
-.requsites-item, .information-item, .contacts-item {
+.requsites-item,
+.information-item,
+.contacts-item {
 	list-style: none;
 	color: inherit;
 	padding: 0;
 }
 
-.requsites-list, .information-list, .contacts-list {
+.requsites-list,
+.information-list,
+.contacts-list {
 	text-decoration: none;
 	color: inherit;
 	margin-bottom: 12px;
 }
+
